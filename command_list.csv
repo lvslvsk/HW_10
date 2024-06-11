@@ -1,0 +1,42 @@
+    1  cd HW10
+    2  cd HW_10
+    3  clear
+    4  git clone https://github.com/lvslvsk/HW_10.git
+    5  git clone https://github.com/lvslvsk/HW_10.git
+    6  cd HW_10
+    7  touch text_ignore.txt
+    8  vim .gitignore
+    9  git status
+   10  vim .gitignore
+   11  git status
+   12  git add.
+   13  git add
+   14  git add .
+   15  git commit
+   16  cd HW_10
+   17  git status
+   18  clear
+   19  touch text_ignore.txt
+   20  vim .gitignore
+   21  git status
+   22  git add .
+   23  git commit -m "Create a new file"
+   24  touch main_test.txt
+   25  git add .
+   26  git commit -m "Created new file main_test"
+   27  git chekout -b develop
+   28  git checkout -b develop
+   29  touch develop_test.txt
+   30  vim develop_test.txt
+   31  git status
+   32  git add .
+   33  git commit -m "Created new file develop_test"
+   34  git checkout main
+   35  git merge develop
+   36  git log
+   37  git log
+   38  git checkout develop
+   39  git checkout main
+   40  git merge develop
+   41  git log
+   42  history > command_list.csv
